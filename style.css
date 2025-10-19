@@ -91,7 +91,7 @@
 
 .new-task__input,
 .task__input {
-  margin: 0;
+  margin-top: 20px;
   font-size: 18px;
   line-height: 18px;
   height: 21px;
@@ -116,8 +116,11 @@
 
 .new-task__input {
   width: 318px;
+  margin-top: 20px;
 }
-
+.new-task__button{
+  margin-top: 20px;
+}
 /* Task list */
 .task {
   overflow: hidden;
@@ -145,7 +148,9 @@
   font-size: 18px;
   width: 226px;
 }
-
+.tasks__list{
+  padding-left: 0;
+}
 .task__input {
   width: 226px;
 }
