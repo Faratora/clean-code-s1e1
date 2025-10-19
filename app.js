@@ -49,7 +49,6 @@ var createNewTaskElement=function(taskString){
     deleteButton.appendChild(deleteButtonImg);
     deleteButtonImg.className="task__image";
     deleteButtonImg.alt ='delete button';
-    
 
 
     //and appending.
@@ -118,7 +117,6 @@ var deleteTask=function(){
 
 }
 
-
 //Mark task completed
 var taskCompleted=function(){
     console.log("Complete Task...");
@@ -130,7 +128,6 @@ var taskCompleted=function(){
 
 }
 
-
 var taskIncomplete=function(){
     console.log("Incomplete Task...");
     //Mark task as incomplete.
@@ -140,8 +137,6 @@ var taskIncomplete=function(){
     incompleteTaskHolder.appendChild(listItem);
     bindTaskEvents(listItem,taskCompleted);
 }
-
-
 
 var ajaxRequest=function(){
     console.log("AJAX Request");
