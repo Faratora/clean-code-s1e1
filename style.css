@@ -21,14 +21,8 @@
   width: 100%;
 }
 
-.header__more-info {
+.header__more {
   font-family: fantasy, cursive;
-}
-
-@media (max-width: 768px) {
-  .header {
-    text-align: center;
- }
 }
 
 .main {
@@ -183,4 +177,10 @@
 
 .task--edit .task__label {
   display: none;
+}
+
+@media (max-width: 768px) {
+  .header {
+    text-align: center;
+  }
 }
