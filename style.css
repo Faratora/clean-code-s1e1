@@ -166,7 +166,7 @@
 }
 
 /* Completed */
-#tasks__list_completed .task__label  {
+#tasks__list--completed .task__label  {
   text-decoration: line-through color: #888;
 }
 
@@ -175,11 +175,11 @@
   display: none
 }
 
-.task-edit .task__input {
+.task--edit .task__input {
   display: inline-block;
   width: 224px
 }
 
-.task-edit .task__label {
+.task--edit .task__label {
   display: none;
 }
