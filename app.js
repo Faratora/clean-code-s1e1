@@ -16,7 +16,6 @@ var completedTasksHolder=document.getElementById("tasks__list--completed");//com
 
 //New task list item
 var createNewTaskElement=function(taskString){
-
     var listItem=document.createElement("li");
 
     //input (checkbox)
@@ -32,7 +31,7 @@ var createNewTaskElement=function(taskString){
     var deleteButton=document.createElement("button");//delete button
     var deleteButtonImg=document.createElement("img");//delete button image
 
-     listItem.className="task";
+    listItem.className="task";
     label.innerText=taskString;
     label.className='task__label';
 
@@ -134,7 +133,7 @@ var taskCompleted=function(){
 
 var taskIncomplete=function(){
     console.log("Incomplete Task...");
-//Mark task as incomplete.
+    //Mark task as incomplete.
     //When the checkbox is unchecked
     //Append the task list item to the #incompleteTasks.
     var listItem=this.parentNode;
